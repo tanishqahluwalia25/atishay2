@@ -1,0 +1,41 @@
+@import "~bootstrap/scss/bootstrap";
+
+$theme-colors: (
+    "info": tomato,
+    "trans": rgba(128, 128, 128, 0),
+    "teal":teal,
+    "lightTrans":rgba(255, 255, 255, 0.788),
+);
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+
+.root{
+    scroll-behavior: smooth;
+    transition-duration:200ms;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+// An intensive course on unleashing your personal brand on the world's most sought after professional - LinkedIn where you can Kill It on LinkedIn with our simple, easy-to-adapt and proven framework. 
