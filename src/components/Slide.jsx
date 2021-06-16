@@ -9,11 +9,11 @@ export default class SimpleSlider extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows: false,
+      arrows: true,
       fade: true,
     };
     return (
-      <div>
+      <div className="header-slide">
         <Slider {...settings}>
           <div className="">
             <TestCard

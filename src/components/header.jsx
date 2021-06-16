@@ -1,8 +1,6 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
-import Carousel from "./Carousel";
-import Footer from "./Footer";
-
+import header from "../assets/header2.jpg";
 const Header = () => {
   return (
     <div className="hero">
@@ -66,10 +64,10 @@ const Header = () => {
             md={4}
           >
             <img
-              style={{ width: "20rem" }}
+              style={{ width: "20rem", opacity: "0" }}
               className="my-md-2 header-img rounded"
               id="header-img"
-              src="https://www.atishayjain.in/static/media/8.acdfed3e.JPG"
+              src={header}
             ></img>
           </Col>
         </Row>

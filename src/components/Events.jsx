@@ -77,7 +77,7 @@ const Events = () => {
                     <img
                       src={`https://drive.google.com/uc?export=view&id=${item.img}`}
                       className="event-img"
-                      style={{ height: "15rem" }}
+                      style={{ height: "18rem" }}
                       alt=""
                     />
                     <div className="event-content">

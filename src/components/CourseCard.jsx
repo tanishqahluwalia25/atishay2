@@ -25,7 +25,7 @@ const CourseCard = () => {
                   proven framework.
                   <br />
                   <a
-                    href="https://www.atishayjain.in/courses"
+                    href="https://atishay-jain-portfolio.web.app/courses"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="course-link"
@@ -79,7 +79,7 @@ const CourseCard = () => {
               framework.
               <br />
               <a
-                href="https://www.atishayjain.in/courses"
+                href="https://atishay-jain-portfolio.web.app/courses"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="course-link"
