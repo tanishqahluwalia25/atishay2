@@ -122,10 +122,10 @@
 .footer {
   position: absolute;
   bottom: 0px;
-  height: 50vh;
+  height: 100vh;
   background-color: #4e06ac;
   z-index: 1;
-  background: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+  background: linear-gradient(#ffffff93, #ffffff93), url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
   background-size: cover;
 }
 .footer2 {

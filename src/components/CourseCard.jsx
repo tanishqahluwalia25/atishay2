@@ -3,12 +3,15 @@ import useWindowWidth from "react-hook-use-window-width";
 const CourseCard = () => {
   const width = useWindowWidth();
 
-  if (width<830) {
+  if (width < 830) {
     return (
       <>
-        <div  className="d-flex align-items-center justify-content-center my-3 bg-">
+        <div className="d-flex align-items-center justify-content-center my-3 bg-">
           <span className="mx-auto">
-            <div className="course-card3 d-flex flex-column" style={{height: "40rem"}}>
+            <div
+              className="course-card3 d-flex flex-column"
+              style={{ height: "40rem" }}
+            >
               <div className="course-card-title">
                 <p className="display-5 title">
                   Linkedin <br />
@@ -16,10 +19,10 @@ const CourseCard = () => {
                 </p>
                 <br />
                 <p className="detail">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                  aliquam inventore, unde consectetur beatae eaque! Soluta
-                  laborum veniam qui saepe cum rerum. Quos dolor ex reiciendis
-                  totam mollitia molestias quaerat.
+                  An intensive course on unleashing your personal brand on the
+                  world's most sought after professional - LinkedIn where you
+                  can Kill It on LinkedIn with our simple, easy-to-adapt and
+                  proven framework.
                   <br />
                   <a
                     href="https://www.atishayjain.in/courses"
@@ -38,20 +41,18 @@ const CourseCard = () => {
                     Rise & Shine with impactful & relevant changes to your
                     profile.
                   </p>
-                  <p className="h6 ">Accelerate Your Profile</p>
+                  <p className="h6 ">Build Connections</p>
                   <p className="text-secondary mb-2 text-light">
-                    Rise & Shine with impactful & relevant changes to your
-                    profile.
+                    Grow your network & build bonds with undeniable & sharp
+                    invites.
                   </p>
-                  <p className="h6 ">Accelerate Your Profile</p>
+                  <p className="h6 ">Create Content Consistently</p>
                   <p className="text-secondary mb-2 text-light">
-                    Rise & Shine with impactful & relevant changes to your
-                    profile.
+                    Create crisp & meaningful content that builds traction.
                   </p>
-                  <p className="h6 ">Accelerate Your Profile</p>
+                  <p className="h6 ">Discover Right Tools</p>
                   <p className="text-secondary mb-2 text-light">
-                    Rise & Shine with impactful & relevant changes to your
-                    profile.
+                    Uncover tips & tricks to enhance your growth.
                   </p>
                 </div>
               </div>
@@ -72,10 +73,10 @@ const CourseCard = () => {
             </p>
             <br />
             <p className="detail">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              aliquam inventore, unde consectetur beatae eaque! Soluta laborum
-              veniam qui saepe cum rerum. Quos dolor ex reiciendis totam
-              mollitia molestias quaerat.
+              An intensive course on unleashing your personal brand on the
+              world's most sought after professional - LinkedIn where you can
+              Kill It on LinkedIn with our simple, easy-to-adapt and proven
+              framework.
               <br />
               <a
                 href="https://www.atishayjain.in/courses"
@@ -91,20 +92,20 @@ const CourseCard = () => {
           <div className="course-card-float">
             <div className="course-card-details">
               <p className="h6 ">Accelerate Your Profile</p>
-              <p className="text-secondary mb-2 text-light">
+              <p className="text-secondary mb-1 text-light">
                 Rise & Shine with impactful & relevant changes to your profile.
               </p>
-              <p className="h6 ">Accelerate Your Profile</p>
-              <p className="text-secondary mb-2 text-light">
-                Rise & Shine with impactful & relevant changes to your profile.
+              <p className="h6 ">Build Connections</p>
+              <p className="text-secondary mb-1 text-light">
+                Grow your network & build bonds with undeniable & sharp invites.
               </p>
-              <p className="h6 ">Accelerate Your Profile</p>
-              <p className="text-secondary mb-2 text-light">
-                Rise & Shine with impactful & relevant changes to your profile.
+              <p className="h6 ">Create Content Consistently</p>
+              <p className="text-secondary mb-1 text-light">
+                Create crisp & meaningful content that builds traction.
               </p>
-              <p className="h6 ">Accelerate Your Profile</p>
-              <p className="text-secondary mb-2 text-light">
-                Rise & Shine with impactful & relevant changes to your profile.
+              <p className="h6 ">Discover Right Tools</p>
+              <p className="text-secondary mb-1 text-light">
+                Uncover tips & tricks to enhance your growth.
               </p>
             </div>
           </div>

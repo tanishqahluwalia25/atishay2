@@ -63,14 +63,14 @@ const About = () => {
           </Col>{" "}
         </Row>
       </Container>
-      <Container style={{ backgroundColor: "#120E43" }} fluid>
+      {/* <Container style={{ backgroundColor: "#120E43" }} fluid>
         <Row>
           <Col className="text-light p-2 display-6 stat">100+</Col>
           <Col className="text-light p-2 display-6 stat">100+</Col>
           <Col className="text-light p-2 display-6 stat">100+</Col>
           <Col className="text-light p-2 display-6 stat">100+</Col>
         </Row>
-      </Container>
+      </Container> */}
     </div>
   );
 };
