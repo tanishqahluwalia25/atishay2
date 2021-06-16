@@ -5,7 +5,7 @@ const Carousel = () => {
   return (
     <div className="bg-light" id="courses">
       <p className="display-6 text-ligt px-5 pt-4">
-        <span className="py-4"> Courses</span>
+        <span className="py-4 px-md-4 text-uppercase h1 text-gray"> Courses</span>
       </p>
       <BCarousel
         fade
