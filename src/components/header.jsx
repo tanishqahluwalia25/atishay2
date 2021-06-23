@@ -8,12 +8,12 @@ const Header = () => {
         <Row className="flex-wrap-reverse justify-content-center align-items-center my-md-5 pt-md-5">
           <Col lg={2} sm={0}></Col>
           <Col lg={5} sm={8} className="zt">
-            <p className="display-5 rot"> I'm a </p> <br />
+            <p className="h1 rot"> I'm a </p> <br />
             <Typewriter
               options={{
                 loop: true,
-                cursorClassName: "display-5",
-                wrapperClassName: "display-5 w-100 my-4",
+                cursorClassName: "h1",
+                wrapperClassName: "h1 w-100 my-4",
               }}
               onInit={(typewriter) => {
                 typewriter

@@ -16,11 +16,11 @@ const About = () => {
     useCSS: true,
   };
   return (
-    <div style={{ backgroundColor: "#F3F3F1" }}>
-      <Container fluid className="logos pt-5 zt mt-lg-5">
+    <div style={{ backgroundColor: "#F3F3F1", position:'relative', zIndex:'100' }}>
+      <Container fluid className="logos zt mt-lg-5">
         <div
           id="about"
-          className="d-flex pt-5 zt mx-5 px-0 flex-row logos align-items-center flex-wrap justify-content-around pt-5 my-5"
+          className="d-flex zt mx-5 px-0 flex-row logos align-items-center flex-wrap justify-content-around py-sm-5 py-md-2 my-5"
         >
           <img
             className=""
