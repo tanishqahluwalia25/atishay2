@@ -16,7 +16,13 @@ const About = () => {
     useCSS: true,
   };
   return (
-    <div style={{ backgroundColor: "#F3F3F1", position:'relative', zIndex:'100' }}>
+    <div
+      style={{
+        backgroundColor: "#F3F3F1",
+        position: "relative",
+        zIndex: "100",
+      }}
+    >
       <Container fluid className="logos zt mt-lg-5">
         <div
           id="about"
@@ -41,12 +47,7 @@ const About = () => {
               Hi, I'm a Project Management & Business Analyst Professional, with
               an Engineering Degree in Information Technology, Post Graduate
               Program in Management from IMT-Ghaziabad, and has pursued a
-              Master's Program in Business Analysis.
-              <br />
-              <br />
-              In my current role at Genpact as a Project Management Officer
-              (PMO) & Business Analyst, I help drive Lean Digital Transformation
-              for Global Clients using Robotic Process Automation (RPA).
+              Master's Program in Business Analytics.
               <br />
               <br />
               I am Lean Certified, IIBA CCBA®️ Trained, Six Sigma Green Belt
@@ -59,8 +60,10 @@ const About = () => {
               Effective Business Communication, and Productivity, and conducted
               dozens of Technical Workshops.
               <br />
-              <br /> I am also a Podcaster, Host & Emcee, and experienced in
-              hosting interviews, book launches, conferences, and events.
+              <br />
+              I am also a Podcaster, Host & Emcee, and experienced in hosting
+              interviews, book launches, conferences, and events.
+              <br />
             </p>
           </Col>
           <Col lg={4}>

@@ -260,7 +260,113 @@
   border-radius: 25px;
 
   .course-card-float {
-    height: 20rem;
+    height: 22rem;
+    position: relative;
+    top: 0%;
+    right: -50%;
+    transform: translate(-50%, 0%);
+    background: linear-gradient(138.49deg, #f1dd2c 13.05%, #f96817 82.21%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+  }
+
+  .course-card-details {
+    padding: 1rem;
+    color: white;
+    width: 15rem;
+    height: 25rem;
+    font-size: 0.9rem;
+    p {
+      margin: 0px;
+    }
+  }
+  .course-link {
+    text-decoration: none;
+    &:hover {
+      border-bottom: 1px solid blue;
+    }
+  }
+  .course-card-title {
+    position: relative;
+    top: 0px;
+    left: 0%;
+    display: inline-block;
+    padding-top: 10px;
+    width: 5rem;
+    padding: 1rem;
+    .title {
+      display: inline-block;
+      width: 20rem;
+    }
+    .detail {
+      width: 20rem;
+      display: inline-block;
+      position: relative;
+      padding-right: 10px;
+    }
+  }
+}
+.course-card4 {
+  width: 632px;
+  height: 376px;
+  margin-right: 0px;
+  background: #ffffff;
+  box-shadow: -4px 4px 10px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 25px;
+
+  .course-card-float {
+    position: relative;
+    width: 394px;
+    height: 311px;
+    left: -60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(138.49deg, #7395f5 13.05%, #14056d 82.21%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+  }
+
+  .course-card-details {
+    padding: 1rem;
+    color: white;
+    font-size: 0.9rem;
+    p {
+      margin: 0px;
+    }
+  }
+  .course-link {
+    text-decoration: none;
+    &:hover {
+      border-bottom: 1px solid blue;
+    }
+  }
+  .course-card-title {
+    position: relative;
+    top: 0px;
+    left: 30%;
+    display: inline-block;
+    padding-top: 10px;
+    .title {
+      display: inline-block;
+    }
+    .detail {
+      display: inline-block;
+      position: relative;
+      width: 24rem;
+      padding-right: 10px;
+    }
+  }
+}
+.course-card5 {
+  width: 20rem;
+  height: 20rem;
+  margin-right: 0px;
+  background: #ffffff;
+  box-shadow: -4px 4px 10px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 25px;
+
+  .course-card-float {
+    height: 22rem;
     position: relative;
     top: 0%;
     right: -50%;

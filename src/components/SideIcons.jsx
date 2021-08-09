@@ -19,7 +19,10 @@ const SideIcons = ({
   }
 
   return (
-    <div className={` flex-${direction} ${className} d-flex`} style={style}>
+    <div
+      className={` flex-${direction} ${className} d-flex`}
+      style={{ ...style, zIndex: 1000 }}
+    >
       <a
         target="_blank"
         rel="noopener noreferrer"
